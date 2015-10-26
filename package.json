@@ -1,7 +1,7 @@
 {
-  "name": "xnote-react-node",
+  "name": "koopuluri-web",
   "version": "0.0.0",
-  "description": "Xnote",
+  "description": "Personal website",
   "main": "server.js",
   "author": "XnoteLabs",
   "dependencies": {
@@ -9,7 +9,8 @@
     "react": "^0.13.3",
     "underscore": "^1.7.0",
     "mixpanel": "*",
-    "express": "*"
+    "express": "*",
+    "node-jsx": "~0.11.0"
   },
   "devDependencies": {
     "nodemon": "^1.2.1",
