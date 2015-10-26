@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/post.css" type="text/css"/> 
+</head>
+
+<body>
+	<div id="timestamp"><%= timestamp %></div>
+	<div id="title-container"><%= title %></div>
+	<div id="content">
+		<% include ../posts/poop.ejs %>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+    <script src="js/post.js"></script>
+</body>
+
+
+</html>
