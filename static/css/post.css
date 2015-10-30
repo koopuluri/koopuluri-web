@@ -3,6 +3,27 @@
 	color: #3e3f3a;
 }
 
+.verse {
+	line-height: 1;
+}
+
+.profile {
+	width: 60%;
+	margin-left: 18%;
+}
+
+.centered {
+	text-align: center;
+}
+
+.upper-margin {
+	margin-top: 20px;
+}
+
+.upper-margin-large {
+	margin-top: 60px;
+}
+
 img {
 	margin-top: 60px;
 	margin-bottom: 60px;
