@@ -1,4 +1,53 @@
 *{
 	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 	
+}
+
+.intro {
+	text-align: left;
+	width: 90%;
+	max-width: 700px;
+}
+
+.profile-pic {
+	width: 130px;
+}
+
+.posts  {
+	padding: 40px;
+	border-top: thin double #f2f2f2;
+
+}
+
+.margined {
+	margin: 30px;
+}
+
+.outer {
+	position: absolute;	
+	width: 100%;
+}
+
+.nav-bar {
+	position: absolute;
+	width: 20%;
+	float: left;
+	height: 100%;
+	background-color: #f2f2f2;
+	text-align: center;	
+}
+
+.content {
+	width: 80%;
+	float: right;
+	height: 100%;
+	text-align: center;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
