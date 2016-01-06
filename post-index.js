@@ -1,8 +1,8 @@
 POSTS = {
 
-	'/poop':
+	'/chai':
 	{	
-		"url": "/poop",
+		"url": "/chai",
 		"title": "Chai",
 		"timestamp": "10/21/2015"
 	},
