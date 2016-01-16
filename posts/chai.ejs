@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<!-- <head>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/post.css" type="text/css"/> 
     <link rel="stylesheet" href="css/chai.css" type="text/css"/>
+</head> -->
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:900,400' rel='stylesheet' type='text/css'>
+    <style> *{font-family: 'Lato', sans-serif;} </style>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/post.css" type="text/css"/> 
+    <link rel="stylesheet" href="css/chai.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
+	  <nav>
+	    <div class="nav-wrapper" style="background: black">
+		  <a href="/" class="brand-logo">Koopuluri</a>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+	        <li><a href="/posts">Posts</a></li>
+	        <li><a href="/photography">Photograpy</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+      		<li><a href="/posts">Posts</a></li>
+	        <li><a href="/photography">Photograpy</a></li>
+	      </ul>
+	    </div>
+	  </nav>
+
 	<div id="title-container">
 		<h1>Chai Pe Charcha</h1>
 		<h2>(Discussion Over Chai)</h2>
@@ -129,6 +154,13 @@
 
 		</div>
 	</div>
+	<script src="js/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+    <script> $( document ).ready(function(){
+    	$(".button-collapse").sideNav();
+    });</script>
 </body>
 </html>
 

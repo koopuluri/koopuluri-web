@@ -1,43 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-    <style> *{font-family: 'Roboto', sans-serif;} </style>
+    <link href='https://fonts.googleapis.com/css?family=Lato:900,400' rel='stylesheet' type='text/css'>
+    <style> *{font-family: 'Lato', sans-serif;} </style>
+    <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
 </head>
 
 <body>
 
 	<div class="outer">
-		<div class="nav-bar">
 
-			<p><a href="/">Home</a></p>
-			<p><a href="/posts">Posts</a></p>
-			<p><a href="/photography">Photography</a></p>
-
-		</div>
-
+		  <nav>
+		    <div class="nav-wrapper" style="background: black">
+		      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+		        <li><a href="/posts">Posts</a></li>
+		        <li><a href="/photography">Photograpy</a></li>
+		      </ul>
+		      <ul class="side-nav" id="mobile-demo">
+	      		<li><a href="/posts">Posts</a></li>
+		        <li><a href="/photography">Photograpy</a></li>
+		      </ul>
+		    </div>
+		  </nav>
+          
 		<div class="content">
 
-			
-			<h1> Koopuluri </h1>
 
-			<img class="profile-pic" src="images/blogPic.jpg"></img>
+			<!-- <img class="profile-pic" src="images/blog.jpg"></img> -->
+
+			<div class="image" style = 'background-image: url(images/blog.jpg)'></div>
+			<p><a href="mailto:koopuluri@gmail.com">koopuluri@gmail.com</a></p>
+			<p>
+				<span>
+					<img src="images/github.png" style="width: 35px"></img>
+					 <b><a href="https://github.com/koopuluri"> koopuluri</a></b>
+				 </span>
+			</p>
+			<p>
+				<span>
+					<img src="images/snapchat.png" style="width: 30px"></img>
+					 <b>k-uppu</b>
+				</span>
+			</p>
 
 			<div class="intro">
-				<p class="margined"> 
-					I like to solve problems that I believe are worthwhile. 
-				</p>
 
 				<p class="margined">
 					I've worked on <a href="/xnote" >Xnote</a> and am currently focusing on increasing interactions within communities - (post coming soon).
 				</p>
 
-				<p class="margined"> 
+				<p class="margined">
 					I'm interested in discussing any ideas / projects you're working on --> reach me at <a href="mailto:koopuluri@gmail.com">koopuluri@gmail.com</a><br>
 				</p>
 
-				<p class="margined"> 
+				<p class="margined">
 					<a href="/why" >Why I made this site</a>.
 				</p>
 			</div>
@@ -56,5 +77,12 @@
     <div id="feed-container"></div>
     <div id="contact"></div>
 
+    <script src="js/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+    <script> $( document ).ready(function(){
+    	$(".button-collapse").sideNav();
+    });</script>
 </body>
 </html>
