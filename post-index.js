@@ -28,6 +28,13 @@ POSTS = {
 			"url": "/why",
 			"title": "Purpose of This Site",
 			"timestamp": "11/01/2015"
+		},
+
+	'/not-sure-what-the-title-should-be':
+		{
+			"url": "/not-sure-what-the-title-should-be",
+			"title": "?",
+			"timestamp": "2/5/2016"
 		}
 };
 
