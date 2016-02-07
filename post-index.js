@@ -1,5 +1,28 @@
 POSTS = {
 
+	'/not-sure-what-the-title-should-be':
+	{
+		"url": "/not-sure-what-the-title-should-be",
+		"title": "?",
+		"timestamp": "2/5/2016"
+	},
+
+	'/exercise': 
+		{
+			"url": "/exercise",
+			"title": "Exercise",
+			"timestamp": "1/30/2016"
+		},
+
+
+	'/content-creation':
+		{
+			"url": "/content-creation",
+			"title": "Content Creation vs. Consumption",
+			"timestamp": "12/30/2015"
+		},
+
+
 	'/chai':
 	{	
 		"url": "/chai",
@@ -15,27 +38,13 @@ POSTS = {
 			"timestamp": "11/1/2015"
 		},
 
-
-	'/content-creation':
-		{
-			"url": "/content-creation",
-			"title": "Content Creation vs. Consumption",
-			"timestamp": "12/30/2015"
-		},
-
 	'/why':
 		{
 			"url": "/why",
 			"title": "Purpose of This Site",
-			"timestamp": "11/01/2015"
+			"timestamp": "11/1/2015"
 		},
 
-	'/not-sure-what-the-title-should-be':
-		{
-			"url": "/not-sure-what-the-title-should-be",
-			"title": "?",
-			"timestamp": "2/5/2016"
-		}
 };
 
 
