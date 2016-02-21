@@ -9,7 +9,8 @@
     "underscore": "^1.7.0",
     "mixpanel": "*",
     "express": "*",
-    "node-jsx": "~0.11.0"
+    "node-jsx": "~0.11.0",
+    "mixpanel": "*"
   },
 
   "devDependencies": {
