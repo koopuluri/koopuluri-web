@@ -1,0 +1,33 @@
+\begin{feedback}
+First two text blocks need a little spicing up.
+The second one is three short sentences and the last sentence is missing a period. \\
+
+The demos of the app look awesome (maybe slow down the speed a bit, your descriptions are hilarious,
+but then again reading the event descriptions isn't really your goal here),
+but
+\begin{opinion}
+I think a demo is a good opportunity to tell a story.
+So you could follow one "meet" all the way through, starting with creation from one perspective,
+joining from another and the whole chat thing. And I think if you did it well it wouldn't be cheesy.
+\end{opinion}
+
+
+"There are many opportunities for casual interactions around me everyday that
+currently don't have avenues to tap into." -> don't end sentences with prepositions \\
+
+" This is an attempt to increase intimate interactions for the entire community."
+-> switch "for" to "within" or something. Also, I don't think you're necessarily trying to increase
+interactions, you're increasing the opportunities for them? Maybe? \\
+
+"But initiating conversations randomly isn't as easy as it can be." This is a weird sentence. \\
+"The conversations were great and I felt good for opening my space for those interactions"
+Missing a period and also "for" isn't the right word here. Maybe "about"? \\
+
+"The motivation behind anonimity was to remove the bias people have when meeting new people"
+->"The motivation behind anonymity was to remove the bias people have before meeting others" \\
+"with a more natural interface to interact with others" interact sounds like it's describing
+interface, not the user. \\
+
+The sense of humor you showed in the demos was by far my favorite part,
+if you can find other places to pepper in some humor then you should definitely do that.
+\end{feedback}
