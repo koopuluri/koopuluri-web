@@ -64,7 +64,7 @@ app.get('/meet', function(req, res, next) {
 app.get('/vernon', function(req, res, next) {
 
 	res.render('post2.ejs', {
-		title: 'Vernon Price', 
+		title: 'Vernon Price',
 		timestamp: '10/29/2015',
 		content: '../posts/vernon.ejs'
 	});
@@ -94,11 +94,3 @@ var server = http.createServer(app).listen(port, function() {
 		});
 	}
 });
-
-
-
-
-
-
-
-
