@@ -59,7 +59,10 @@
 .project {
   margin-top: 30px;
   border-bottom: 1px solid #d3d3d3;
-  pading-bottom: 15px;
+}
+
+.project-last {
+  margin-top: 30px;
 }
 
 .project-title {
