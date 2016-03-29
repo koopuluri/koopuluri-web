@@ -45,14 +45,19 @@
 }
 
 .projects {
+  width: 70%;
+  float: left;
+  border-right: 1px solid #d3d3d3;
+  padding-right: 20px;
+}
 
+.personal-section {
+    width: 25%;
+    float: right;
 }
 
 .project {
   margin-top: 30px;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
   border-bottom: 1px solid #d3d3d3;
   pading-bottom: 15px;
 }
@@ -64,12 +69,25 @@
   font-weight: 700;
 }
 
+.project-title-big {
+  padding-left: 7px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 li {
   margin: 10px 0;
 }
 
 .project-date-range {
-  color: #0099ff;
+  color: #A9A9A9;
 }
 
 .project-point {
