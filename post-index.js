@@ -1,5 +1,12 @@
 POSTS = {
 
+	'/meet':
+	{
+		"url": "/meet",
+		"title": "Meet Peeps",
+		"timestamp": "2/11/2016"
+	},
+
 	'/not-sure-what-the-title-should-be':
 	{
 		"url": "/not-sure-what-the-title-should-be",
@@ -7,7 +14,7 @@ POSTS = {
 		"timestamp": "2/5/2016"
 	},
 
-	'/exercise': 
+	'/exercise':
 		{
 			"url": "/exercise",
 			"title": "Exercise",
@@ -24,7 +31,7 @@ POSTS = {
 
 
 	'/chai':
-	{	
+	{
 		"url": "/chai",
 		"title": "Chai",
 		"timestamp": "10/21/2015"
@@ -57,6 +64,3 @@ POSTS = {
 
 
 module.exports = POSTS;
-
-
-

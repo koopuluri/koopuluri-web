@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    
 </head>
 
 <body>
@@ -27,11 +26,8 @@
 		      </ul>
 		    </div>
 		  </nav>
-          
+
 		<div class="content">
-
-
-			<!-- <img class="profile-pic" src="images/blog.jpg"></img> -->
 
 			<div class="image" style = 'background-image: url(images/blog.jpg)'></div>
 			<p><a href="mailto:koopuluri@gmail.com">koopuluri@gmail.com</a></p>
@@ -51,7 +47,7 @@
 			<div class="intro">
 
 				<p class="margined">
-					I've worked on <a href="/xnote" >Xnote</a> and am currently focusing on increasing interactions within communities - (post coming soon).
+					I've worked on <a href="/xnote" >Xnote</a> and am currently focusing on increasing interactions within communities - (<a class="post-link" href="/meet">Meet peeps</a>).
 				</p>
 
 				<p class="margined">
@@ -63,13 +59,27 @@
 				</p>
 			</div>
 
-			<h1 class="posts"> Posts: </h1>
+      <div class="posts-container">
+          <div class="posts-section">
+      			<h2 class="posts"> Posts: </h2>
 
-			<div>
-				<% for(var url in posts) { %>
-				     <p><a class="post-link" href="<%= url %>"><%= posts[url]['title'] %></a></p>
-				<% } %>
-			</div>
+      			<div>
+      				<% for(var url in posts) { %>
+      				     <p><a class="post-link" href="<%= url %>"><%= posts[url]['title'] %></a></p>
+      				<% } %>
+      			</div>
+          </div>
+
+          <div class="designs-section">
+            <h2>Design Thoughts: </h2>
+            <div>
+              <% for(var url in designPosts) { %>
+                   <p><a class="post-link" href="<%= url %>"><%= designPosts[url]['title'] %></a></p>
+              <% } %>
+            </div>
+          </div>
+      </div>
+
 		</div>
 	</div>
 

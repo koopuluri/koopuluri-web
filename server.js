@@ -9,6 +9,7 @@ var http = require('http');
 var Mixpanel = require('mixpanel').init("04f0999a4b69c79092856cd192fd5a14")
 
 var POSTS = require('./post-index');
+var DESIGN_POSTS = require('./designs-index');
 var PICTURES = require('./picture-index');
 
 var DEBUG = true;
@@ -30,7 +31,8 @@ app.use("/", express.static(__dirname + "/static"));
 app.get('/', function(req, res, next) {
 	Mixpanel.track("landing")
 	res.render('index.ejs', {
-		posts: POSTS
+		posts: POSTS,
+		designPosts: DESIGN_POSTS
 	});
 });
 
