@@ -1,0 +1,64 @@
+Sorry this took a bit, just went over it.  Going to be a lot of feedback,
+get ready for a wall of text.
+
+First off, I'd highly recommend favoring a PDF format to a web page.
+This ensures that it'll look the exact same online as it does when printed,
+or viewed on mobile.  It's "old", but that cross-compatibility is quite difficult
+to achieve with a website.  Resumes are supposed to be printed, and this format doesn't
+work with that.
+
+As for the the actual content, the biggest issue I have with it is that it
+feels very sparse.  There is a lot of white space not used for anything
+(to the left and right of the header, for instance), and relatively low content.
+There are almost definitely more languages or tools that you know, even if
+you don't think of them as your strongest.  If you work in unix like environments,
+you almost definitely know at least some bash scripting, for instance.
+You also likely know enough java to list it, at least at a working knowledge level.
+The resume has a very front-end heavy vibe to it, from a skills perspective,
+listing Flask and Node as the only real backend-languages, which tend to be more
+"lightweight" than other languages.  Even if you've never used java for server
+side programming for instance, listing it can give the impression that you are 
+capable of handling more performance-centric server programming.
+
+The Pindrop and Robotics Lab listings are the only ones that are really
+structured correctly for listing professional experience on a resume.
+The resume should be centered around you, not the companies.  A description
+of the company isn't appropriate.  If the company mission/details is of interest
+ to employers, they'll look it up.  If they're difficult to find, list the URL
+ to them after the name, but don't write a summary of the company underneath.
+ Instead focus on what your contributions were.  (Did you need to manage any employees?
+ Did you write and code?  Did you architect and structure the system behind it?
+ Were there any unique challenges you needed to work around?).  Companies are
+ looking for a sense of you, not the company.
+
+Having a two column format isn't great in my mind.
+It reduces the "Scannability" of the resume.
+In general, I want to be able to look down the left side of the page looking
+for each data point I care about (education, language proficiencies, etc).
+Then underneath that things should be listed in reverse chrono order for anything
+you were involved in, or in order of relevance for any skills.  The two column
+approach is different, but it feels different for the sake of being different,
+and doesn't add much beyond that, while reducing practicality.
+
+In addition, the right column being so skinny contributed to the feeling of
+"sparseness" mentioned above.  I would like to see more languages/tools/platforms
+listed in your skills, as well as more information about things like the education
+section (the most relevant being expected graduation date, and GPA if it's not horrid).
+Also, sell the shit out of your leadership roles.  People love seeing that on
+resumes as it gives the impression of being sociable, having good communication
+skills, and being willing to take initiative.  I'd expand a bit on each of
+those and what exactly they entailed.
+
+"Build useful technology".  Come on dude, you're a person, not a startup.
+ Don't go adding feel good fluff like that, especially when there's so much b
+ etter stuff you could add.  No one is going to read it, and if they do they'll
+ be wondering why you felt the need to say it.  (Doesn't everyone want to build
+ useful technology?  Probably not, but people like to think that everyone does.)
+
+Last thing, as an aside, poking around your github, you should may want to
+clean up your repos a bit, if you're going to let anyone see it.  For instance,
+the xnote-web repo's last 12 commits are "Update README.md", all from the same day.
+Just squash those commits into one and force push it.  It's admittedly rare that
+anyone will go digging into your repo (I do for candidates, but I'm a crazy person),
+but showing good practices in your personal code sends a fantastic message to
+anyone looking at it.

@@ -1,0 +1,75 @@
+Snapchat and Design Analysis (Change title to be more general):
+
+Some pre-notes:
+-->  This is my OPINION about the change in UI WITH RESPECT TO ME. That's all.
+No need to justify why it's a bad shift for everyone. Just why I don't like it.
+Acknowledge the other side (as to why the move might make sense for  SC, and
+potentially users as well), but why I think the move makes SC less unique.
+
+Outline:
+- I love Snapchat (Quick reasons for why).
+
+- Latest update and why that reduces the utility I derive:
+    - Content is fed down friends' throats -> making it more effortful
+    for me to post content.
+
+    First I'll go over the previous Snapchat UI and what I love about it
+    --> what makes it unique: (plug in pointX).
+
+    The new change in the UI takes the focus slightly away from content creation.
+    Because it's easier to mindlessly consume content.
+    I agree that it makes sense from a "business" standpoint, but it doesn't
+    flow well with me.
+
+    - It's a step away from the focus of content creation that I love about
+    Snapchat.
+
+    - I don't like to consume content that I didn't plan to - this UI change
+    makes it too easy to accidentally swallow content.
+
+- Conversation about how much freedom is provided to users of software:
+    - I lean towards limiting options (for decision paralysis reasons), but
+    up to a certain point: the point beyond which the experience fails to
+    provide utility anymore.
+
+    - "Call to Action"s are important and I believe them to be part of a good
+    user experience.
+
+        - What is a Call to Action? And how does that relate exactly to the
+        Snapchat UI?
+
+        - What fucking point are you trying to make here?
+
+X- Notable features of Snapchat's UI:
+    - 3 view structure. (Just the right number).
+
+    - First screen is Camera screen, and every other view flows back to this
+    main screen. This is unique in the sense that it pushes a user to create
+    content - it's the easiest thing to on the app.
+
+    This is interesting to me: Facebook, Instagram, Reddit, Pinterest all have
+    a bias towards content consumption. I lump all of these apps into the
+    category of (sharing content between people).
+
+    One could argue that Snapchat is a communications platform and therefore
+    it makes sense that creating content to communicate is up front and center
+    (as creating a message is the main function of a messaging app), but it's
+    grown far beyond that now - with the addition of "stories", snapchat has
+    crossed over into the consumption space.
+
+    This is something that I love about Snapchat - it makes it stupidly easy to
+    create content. I open the app, and it's ready for me to capture the world
+    around me... and then I can choose who to share that moment(s) with. The
+    sharing is more of an afterthought, the creation of content is central.
+
+
+- Conclusion / further research:
+    - A platform in which you must create content in order to consume it. I wonder
+    what that would be like.
+
+        - What kind of content?
+
+        - What would be the motivation to create? To be able to consume? Is that
+        the "right" incentive? What is "right" (the ideal utility for users)?
+
+        -

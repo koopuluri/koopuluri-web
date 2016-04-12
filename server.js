@@ -44,6 +44,12 @@ app.get('/posts', function(req, res, next) {
 	});
 });
 
+app.get('/design-thoughts', function(req, res, next) {
+	res.render('design-thoughts.ejs', {
+		designPosts: DESIGN_POSTS
+	});
+});
+
 app.get('/photography', function(req, res, next) {
 	Mixpanel.track("photography")
 	res.render('photography.ejs', {
