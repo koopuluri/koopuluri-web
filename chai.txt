@@ -1,0 +1,12 @@
+Thoughts about the chaiapp landing page:
+
+<icon>
+<chai text in proper font>
+
+<one line description>
+
+<delve into the features - screenshots>
+
+3 screenshots (gifs):
+    - MeetsView
+    -

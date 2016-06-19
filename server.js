@@ -44,6 +44,10 @@ app.get('/posts', function(req, res, next) {
 	});
 });
 
+app.get('/chaiapp', function(req, res, next) {
+	res.render('chaiapp.ejs', {});
+});
+
 app.get('/photography', function(req, res, next) {
 	Mixpanel.track("photography")
 	res.render('photography.ejs', {
