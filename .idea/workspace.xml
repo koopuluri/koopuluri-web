@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d1475e8-90c4-4622-88df-ca7aa00dd7b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chai.txt" afterPath="$PROJECT_DIR$/chai.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/chai-pitch.ejs" afterPath="$PROJECT_DIR$/views/chai-pitch.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/goals.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/snapchat.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resume-feedback.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/design-thoughts.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/chai.ejs" afterPath="$PROJECT_DIR$/posts/chai.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/content-creation.ejs" afterPath="$PROJECT_DIR$/posts/content-creation.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/exercise.ejs" afterPath="$PROJECT_DIR$/posts/exercise.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/interruptions.ejs" afterPath="$PROJECT_DIR$/posts/interruptions.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/meets.ejs" afterPath="$PROJECT_DIR$/posts/meets.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/not-sure-what-the-title-should-be.ejs" afterPath="$PROJECT_DIR$/posts/not-sure-what-the-title-should-be.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/resistance-to-change.ejs" afterPath="$PROJECT_DIR$/posts/resistance-to-change.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/why.ejs" afterPath="$PROJECT_DIR$/posts/why.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/xnote.ejs" afterPath="$PROJECT_DIR$/posts/xnote.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.css" afterPath="$PROJECT_DIR$/static/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/resume.css" afterPath="$PROJECT_DIR$/static/css/resume.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/resume.ejs" afterPath="$PROJECT_DIR$/views/resume.ejs" />
     </list>
     <ignored path="koopuluri-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chai-pitch.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chai-pitch.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/chai-pitch.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
@@ -64,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="300">
+              <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -88,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+              <caret line="17" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,12 +127,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/views/chaiapp.ejs" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/static/css/grid.css" />
         <option value="$PROJECT_DIR$/static/css/people.css" />
         <option value="$PROJECT_DIR$/static/css/chai-pitch.css" />
         <option value="$PROJECT_DIR$/chai.txt" />
         <option value="$PROJECT_DIR$/views/chai-pitch.ejs" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -305,12 +322,12 @@
       <option name="presentableId" value="Default" />
       <updated>1466314670588</updated>
       <workItem from="1466314671773" duration="4629000" />
-      <workItem from="1466472284011" duration="8053000" />
+      <workItem from="1466472284011" duration="8435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12682000" />
+    <option name="totallyTimeSpent" value="13064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -401,7 +418,7 @@
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <caret line="17" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -426,14 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -466,6 +475,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
           <folding />
         </state>
       </provider>

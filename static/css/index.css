@@ -20,10 +20,14 @@ h1 {
 	width: 130px;
 }
 
-/*.posts  {
-	padding: 40px;
-	border-top: thin double #f2f2f2;
-}*/
+.tag {
+		font-weight: bold;
+		color: #A9A9A9;
+}
+
+.border-right {
+		border-right: thick double #d2d2d2;
+}
 
 .posts-container {
 		border-top: thin double #f2f2f2;
