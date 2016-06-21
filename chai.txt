@@ -10,3 +10,31 @@ Thoughts about the chaiapp landing page:
 3 screenshots (gifs):
     - MeetsView
     -
+
+Adoption Strategy:
+- Start on college campuses.
+- Manually create meets for student organization meetings and other happenings on campus
+- Get together a set of early adopters that post events, and create awareness by handing out free chai.
+
+
+Competition:
+- How do differentiate:
+    ->  meetup.com too large, formal, signup fee.
+    -> dtl: focuses only on interacting with people you already know.
+    -> Meeting new people under an informal setting then falls under dating apps...
+
+
+Competitive Advantage:
+
+- Have experience creating get-togethers for students and studying behavior (link-to-chai-exps)
+- Access to student bodies at multiple universities (Gatech, Berkeley) (Gatech, Berk, Indian Universities)
+
+Team:
+- Currently myself (Karthik Uppuluri) with most of the development efforts. Help from Sandeep (Berk) with
+initial launch marketing, Faisal (Gatech, Google) with some back-end work, and partnered with
+an independent designer in India for the app design.
+
+
+Vision:
+
+Creating an environment within communities that helps people interact with those around them.

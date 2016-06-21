@@ -48,8 +48,12 @@ app.get('/chaiapp', function(req, res, next) {
 	res.render('chaiapp.ejs', {});
 });
 
+app.get('/chai-pitch', function(req, res, next) {
+	res.render('chai-pitch.ejs');
+});
+
 app.get('/photography', function(req, res, next) {
-	Mixpanel.track("photography")
+	Mixpanel.track("photography");
 	res.render('photography.ejs', {
 		pictures: PICTURES
 	});

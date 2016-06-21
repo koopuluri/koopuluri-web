@@ -1,0 +1,64 @@
+.person {
+    text-align: center;
+    width: 200px;
+    height: 275px;
+    margin: 6px;
+}
+
+.profile-image {
+    width: 100%;
+    cursor: pointer;
+}
+
+.profile {
+    height: 200px;
+    overflow: hidden;
+}
+
+.person-name {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.person-one-line-description {
+    font-size: 11px;
+    font-color: #a8a8a8;
+    font-weigth: 300;
+    padding: 3px;
+}
+
+.students {
+    margin-top: 100px;
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+#people-pane {
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width: 30em) {
+    .person {
+        text-align: center;
+        width: 200px;
+        height: 300px;
+    }
+
+    .people {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Tablet (medium) screens */
+@media (min-width: 30em) {
+
+}
+
+@media (min-width: 48em) {
+
+}
