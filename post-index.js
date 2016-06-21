@@ -7,20 +7,12 @@ POSTS = {
 		"timestamp": "2/11/2016"
 	},
 
-	'/not-sure-what-the-title-should-be':
-	{
-		"url": "/not-sure-what-the-title-should-be",
-		"title": "?",
-		"timestamp": "2/5/2016"
-	},
-
 	'/exercise':
 		{
 			"url": "/exercise",
 			"title": "Exercise",
 			"timestamp": "1/30/2016"
 		},
-
 
 	'/content-creation':
 		{
