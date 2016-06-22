@@ -44,13 +44,14 @@ app.get('/posts', function(req, res, next) {
 	});
 });
 
-app.get('/chaiapp', function(req, res, next) {
-	res.render('chaiapp.ejs', {});
-});
-
 app.get('/chai-pitch', function(req, res, next) {
 	res.render('chai-pitch.ejs', {});
 });
+
+app.get('/chaiapp', function(req, res, next) {
+	res.render('chai-pitch.ejs', {});
+});
+
 
 app.get('/design-thoughts', function(req, res, next) {
 	res.render('design-thoughts.ejs', {
