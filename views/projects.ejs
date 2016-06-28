@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:900,400' rel='stylesheet' type='text/css'>
+    <style> *{font-family: 'Lato', sans-serif;} </style>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <meta name='viewport' content='width=device-width' />
+</head>
+
+<body>
+
+	<div class="outer">
+
+		  <nav>
+		    <div class="nav-wrapper" style="background: black">
+		      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+		        <li><a href="/posts">Posts</a></li>
+            <li><a href="/design-thoughts">Design Thoughts</a></li>
+		        <li><a href="/photography">Photograpy</a></li>
+		      </ul>
+		      <ul class="side-nav" id="mobile-demo">
+	      		<li><a href="/posts">Posts</a></li>
+            <li><a href="/design-thoughts">Design Thoughts</a></li>
+		        <li><a href="/photography">Photograpy</a></li>
+		      </ul>
+		    </div>
+		  </nav>
+
+		<div class="content">
+
+			<div class="image" style = 'background-image: url(images/blog.jpg)'></div>
+			<p><a href="mailto:koopuluri@gmail.com">koopuluri@gmail.com</a></p>
+			<p>
+				<span>
+					<img src="images/github.png" style="width: 35px"></img>
+					 <b><a href="https://github.com/koopuluri"> koopuluri</a></b>
+				 </span>
+			</p>
+			<p>
+				<span>
+					<img src="images/snapchat.png" style="width: 30px"></img>
+					 <b>k-uppu</b>
+				</span>
+			</p>
+
+      <div class="posts-container">
+          <div class="posts-section">
+      			<h2 class="posts"> Projects: </h2>
+
+      			<div>
+      				  <p><a class="post-link" href="/xnote">Xnote</a></p>
+                <p><a class="post-link" href="/chai">Chai</a></p>
+                <p><a class="post-link" href="/meet">Meet Peeps</a></p>
+      			</div>
+          </div>
+
+      </div>
+
+		</div>
+	</div>
+
+    <div id="about-container"></div>
+    <div id="feed-container"></div>
+    <div id="contact"></div>
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+    <script> $( document ).ready(function(){
+    	$(".button-collapse").sideNav();
+    });</script>
+</body>
+</html>

@@ -48,6 +48,10 @@ app.get('/chai-pitch', function(req, res, next) {
 	res.render('chai-pitch.ejs', {});
 });
 
+app.get('/projects', function(req, res, next) {
+	res.render('projects.ejs', {});
+});
+
 app.get('/chaiapp', function(req, res, next) {
 	res.render('chai-pitch.ejs', {});
 });
