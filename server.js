@@ -62,6 +62,13 @@ app.get('/design-thoughts', function(req, res, next) {
 	});
 });
 
+app.get('/education-clarification', function(req, res, next) {
+	res.render('education-clarification.ejs', {
+		title: 'Education Clarification',
+		timestamp: '7/12/16'
+	});
+});
+
 app.get('/photography', function(req, res, next) {
 	Mixpanel.track("photography");
 	res.render('photography.ejs', {
