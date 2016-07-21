@@ -65,7 +65,6 @@
 			</div>
 
       <div class="posts-container">
-          <div class="posts-section">
       			<h2 class="posts"> Posts: </h2>
 
       			<div>
@@ -73,16 +72,6 @@
       				     <p><a class="post-link" href="<%= url %>"><%= posts[url]['title'] %></a></p>
       				<% } %>
       			</div>
-          </div>
-
-          <div class="designs-section">
-            <h2>Design Thoughts: </h2>
-            <div>
-              <% for(var url in designPosts) { %>
-                   <p><a class="post-link" href="<%= url %>"><%= designPosts[url]['title'] %></a></p>
-              <% } %>
-            </div>
-          </div>
       </div>
 
 		</div>

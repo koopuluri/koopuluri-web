@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name='viewport' content='width=device-width' />
+    <link href='https://fonts.googleapis.com/css?family=Lato:900,400' rel='stylesheet' type='text/css'>
+    <style> *{font-family: 'Lato', sans-serif;} </style>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/post.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+
+<body>
+	<nav>
+		<div class="nav-wrapper" style="background: black">
+  		<a href="/" class="brand-logo">Koopuluri</a>
+		  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		  <ul class="right hide-on-med-and-down">
+		    <li><a href="/posts">Posts</a></li>
+        <li><a href="/design-thoughts">Design Thoughts</a></li>
+		    <li><a href="/photography">Photograpy</a></li>
+		  </ul>
+		  <ul class="side-nav" id="mobile-demo">
+				<li><a href="/posts">Posts</a></li>
+        <li><a href="/design-thoughts">Design Thoughts</a></li>
+		    <li><a href="/photography">Photograpy</a></li>
+		  </ul>
+		</div>
+	</nav>
+	<div id="title-container"><h1><%= title %></h1></div>
+	<div id="timestamp"><%= timestamp %></div>
+	<div id="content">
+		  <p>
+          I’m always in awe of great listeners. When I converse with them,
+          I have the feeling that they’re giving me undivided attention.
+          This makes me more appreciative of the interaction and results in
+          healthy discussion (even when we completely disagree).
+      </p>
+
+
+      <p>
+        I started thinking about the art of listening a few years ago
+        and decided to actively work on this craft. I’ve taken notes to
+        myself over time to help me put this into practice. Wanted to
+        share now to see what thoughts others have on this topic.
+      </p>
+
+      <p><b> Yo, </b></p>
+
+      <p>
+        Remember [manager at internship] during your interactions with him.
+        Knowing that he’d listen and ask thoughtful questions about whatever
+        situation you shared with him, made you want to share more. It plays a
+        large role in approachability - and that’s necessary to build a
+        well-functioning team - understanding problems in a team is
+        essential for a manager, and approachability widens the funnel.
+      </p>
+
+          <h4> Immediate Reaction: </h4>
+              <p>
+                  When you hear something and your mind immediately
+                  races to say something about it, resist. Push it aside
+                  for now, and bring your attention back to what they’re saying.
+                  Trust that your mind is processing it in the background and
+                  that you won’t lose that thought… bring it up once they’re
+                  done speaking.
+              </p>
+
+              <p><b>Exceptions:</b></p>
+
+              <p><i>
+                  If they’ve been going down an unnecessary
+                  tangent for a little bit already - even then, you can
+                  respectfully interrupt and bring back on track
+              </i></p>
+
+          <h4> Conversational Balance: </h4>
+              <p>
+                  Balance conversations! If you feel like you’re talking too much,
+                  and aren’t asking questions, then you’re missing out on an
+                  opportunity to learn from this person. Note that ending your
+                  answers to questions others asked you with a “what about you”
+                  doesn’t count. If you’re paying attention to them, you’ll always
+                  have something you want to find more about.
+              </p>
+
+              <p><b>Exceptions:</b></p>
+
+              <p><i>
+                When once person is teaching / interviewing, then it makes sense for it to be
+                unbalanced. Remember that listeners obtain more information
+                than speakers usually. Also
+              </i></p>
+
+          <h4> Emotion: </h4>
+
+              <p>
+                Pay attention to how <b>emotion</b> creeps into your
+                communication. Emotion can be useful in some scenarios,
+                but even then, being able to not react immediately, hear
+                the person out and then respond with your point with the
+                emotion allows it to be more effectively communicated. A
+                natural reaction to being cut off is to get a bit angry or
+                annoyed, and that distracts from both understanding why this
+                person reacted and cut you off, and also from effectively
+                getting across your point and emotion.
+              </p>
+
+              <p><b>Exceptions:</b></p>
+
+              <p><i>
+                  Certain debate environments require being aggressive to get point
+                  across, else you'll have incorrect views attributed to you (being
+                  silent about something can imply you take a side you don't intend to)
+              </i></p>
+      </ul>
+	</div>
+	<script src="js/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+    <script> $( document ).ready(function(){
+    	$(".button-collapse").sideNav();
+    });</script>
+</body>
