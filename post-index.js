@@ -2,9 +2,8 @@ POSTS = {
 
 	'/listen':
 	{
-		"url": "/listen",
-		"title": "Craft of Listening (Draft)",
-		"timestamp": "7/21/2016"
+		"title": "Art of Listening (Draft)",
+		"mediumLink": "https://medium.com/@koopuluri/435292098386"
 	},
 
 	'/meet':
@@ -27,7 +26,6 @@ POSTS = {
 			"title": "Content Creation vs. Consumption",
 			"timestamp": "12/30/2015"
 		},
-
 
 	'/chai':
 	{

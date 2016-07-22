@@ -110,8 +110,16 @@ var server = http.createServer(app).listen(port, function() {
     }
 
 	for (var url in POSTS) {
-		app.get(url, function(req, res, next) {
+		var poop = url;
+		app.get(poop, function(req, res, next) {
+
 			var url = req.route.path;
+
+			var mediumLink = POSTS[url]['mediumLink']
+			if (mediumLink != null) {
+				return res.redirect(mediumLink);
+			}
+
 			var postFilepath = '../posts/' + url.slice(1) + '.ejs';
 			Mixpanel.track(POSTS[url]['title'])
 			res.render(postFilepath, {
