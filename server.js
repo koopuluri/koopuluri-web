@@ -36,6 +36,12 @@ app.get('/', function(req, res, next) {
 	});
 });
 
+// ---------------- COMPANY HELLOS ================
+
+app.get('/hello-scale', function(req, res, next) {
+		res.render('hello-scale.ejs', {});
+});
+
 // =============== MAIN PAGE LINKS ================
 
 app.get('/posts', function(req, res, next) {
