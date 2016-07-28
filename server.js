@@ -36,6 +36,7 @@ app.get('/', function(req, res, next) {
 	});
 });
 
+
 // ---------------- COMPANY HELLOS ================
 
 app.get('/hello-scale', function(req, res, next) {
@@ -48,6 +49,10 @@ app.get('/posts', function(req, res, next) {
 	res.render('posts.ejs', {
 		posts: POSTS
 	});
+});
+
+app.get('/fletch', function(req, res, next) {
+	res.render('fletch.ejs', {});
 });
 
 app.get('/chai-pitch', function(req, res, next) {
