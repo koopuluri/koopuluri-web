@@ -36,11 +36,14 @@ app.get('/', function(req, res, next) {
 	});
 });
 
-
 // ---------------- COMPANY HELLOS ================
 
 app.get('/hello-scale', function(req, res, next) {
 		res.render('hello-scale.ejs', {});
+});
+
+app.get('/shruti-reply', function(req, res, next) {
+		res.render('shruti.ejs', {})
 });
 
 // =============== MAIN PAGE LINKS ================
