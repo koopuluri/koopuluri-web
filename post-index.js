@@ -1,4 +1,9 @@
 POSTS = {
+	'xnote-learning':
+	{
+		"title": "Thoughts on Xnote",
+		"mediumLink": "/xnote-learning"
+	},
 
 	'/listen':
 	{
